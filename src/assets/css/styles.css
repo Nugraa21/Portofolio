@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body , html{
+    padding: 0;
+    margin:  0;
+    overflow: hidden;
+    overflow: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(194, 238, 170);
+}
+
+
+
+
+

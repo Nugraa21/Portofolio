@@ -1,19 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './assets/css/styles.css'
-import './assets/css/responsif.css'
-import Nav from './components/nav'
-import Hero from './components/hero'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './style.css';
 
-const root = document.getElementById('root');
-
-if (root) {
-  createRoot(root).render(
-    <StrictMode>
-      <Nav />
-      <Hero />
-    </StrictMode>
-  );
-} else {
-  console.error("Element with id 'root' not found.");
-}
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
